@@ -1,0 +1,306 @@
+/* -------------------------------------------------------------------
+Basic CSS Styling
+------------------------------------------------------------------- */
+
+body {
+    background-color: #000;
+  }
+  
+  footer {
+    clear: left;
+    font-size: 10px;
+    text-align: right;
+    margin: 10px;
+  }
+  
+  #bg {
+    background-color: #000;
+  }
+  
+  /* -------------------------------------------------------------------
+  Font Styling
+  ------------------------------------------------------------------- */
+  
+  h1 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 6em;
+    font-optical-sizing: auto;
+    text-transform: lowercase;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  
+  h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+    font-optical-sizing: auto;
+    text-transform: lowercase;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  h3 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    font-optical-sizing: auto;
+    text-transform: lowercase;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  li {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    margin-left: 20px;
+    color: #fff;
+  }
+
+
+  /* -------------------------------------------------------------------
+  Header
+  ------------------------------------------------------------------- */
+  
+  #header {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    font-optical-sizing: auto;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  /* -------------------------------------------------------------------
+  Container Block Content
+  ------------------------------------------------------------------- */
+  
+  .content {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  #container-top {
+    position: relative;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #0f0f0f;
+    background-color: #0f0f0f;
+  }
+  
+  #container-center {
+    position: relative;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #004680;
+    background-color: #004680;
+  }
+
+  /* -------------------------------------------------------------------
+  Attribute Block
+  ------------------------------------------------------------------- */
+  
+  #container-attributes {
+    position: relative;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #0f0f0f;
+    background-color: #0f0f0f;
+  }
+  
+  .content-attributes {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    margin-left: 20px;
+    color: #fff;
+  }
+  
+  /* -------------------------------------------------------------------
+  Simple Responsive Framework
+  ------------------------------------------------------------------- */
+  
+  .row {
+    width: 100%;
+  }
+  
+  /* -------------------------------------------------------------------
+  Desktop Devices
+  ------------------------------------------------------------------- */
+  
+  @media (min-width: 992px) {
+    .column-large-1,
+    .column-large-2,
+    .column-large-3,
+    .column-large-4,
+    .column-large-5,
+    .column-large-6,
+    .column-large-7,
+    .column-large-8,
+    .column-large-9,
+    .column-large-10,
+    .column-large-11,
+    .column-large-12 {
+      float: left;
+    }
+    .column-large-1 {
+      width: 8.33%;
+    }
+    .column-large-2 {
+      width: 16.66%;
+    }
+    .column-large-3 {
+      width: 25%;
+    }
+    .column-large-4 {
+      width: 33.33%;
+    }
+    .column-large-5 {
+      width: 41.66%;
+    }
+    .column-large-6 {
+      width: 50%;
+    }
+    .column-large-7 {
+      width: 58.33%;
+    }
+    .column-large-8 {
+      width: 66.66%;
+    }
+    .column-large-9 {
+      width: 74.99%;
+    }
+    .column-large-10 {
+      width: 83.33%;
+    }
+    .column-large-11 {
+      width: 91.66%;
+    }
+    .column-large-12 {
+      width: 100%;
+    }
+  }
+  
+  /* -------------------------------------------------------------------
+  Tablet Devices
+  ------------------------------------------------------------------- */
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .column-medium-1,
+    .column-medium-2,
+    .column-medium-3,
+    .column-medium-4,
+    .column-medium-5,
+    .column-medium-6,
+    .column-medium-7,
+    .column-medium-8,
+    .column-medium-9,
+    .column-medium-10,
+    .column-medium-11,
+    .column-medium-12 {
+      float: left;
+    }
+    .column-medium-1 {
+      width: 8.33%;
+    }
+    .column-medium-2 {
+      width: 16.66%;
+    }
+    .column-medium-3 {
+      width: 25%;
+    }
+    .column-medium-4 {
+      width: 33.33%;
+    }
+    .column-medium-5 {
+      width: 41.66%;
+    }
+    .column-medium-6 {
+      width: 50%;
+    }
+    .column-medium-7 {
+      width: 58.33%;
+    }
+    .column-medium-8 {
+      width: 66.66%;
+    }
+    .column-medium-9 {
+      width: 74.99%;
+    }
+    .column-medium-10 {
+      width: 83.33%;
+    }
+    .column-medium-11 {
+      width: 91.66%;
+    }
+    .column-medium-12 {
+      width: 100%;
+    }
+  }
+  
+  /* -------------------------------------------------------------------
+  Mobile Devices
+  ------------------------------------------------------------------- */
+  
+  @media (max-width: 767px) {
+    .column-small-1,
+    .column-small-2,
+    .column-small-3,
+    .column-small-4,
+    .column-small-5,
+    .column-small-6,
+    .column-small-7,
+    .column-small-8,
+    .column-small-9,
+    .column-small-10,
+    .column-small-11,
+    .column-small-12 {
+      float: left;
+    }
+    .column-small-1 {
+      width: 8.33%;
+    }
+    .column-small-2 {
+      width: 16.66%;
+    }
+    .column-small-3 {
+      width: 25%;
+    }
+    .column-small-4 {
+      width: 33.33%;
+    }
+    .column-small-5 {
+      width: 41.66%;
+    }
+    .column-small-6 {
+      width: 50%;
+    }
+    .column-small-7 {
+      width: 58.33%;
+    }
+    .column-small-8 {
+      width: 66.66%;
+    }
+    .column-small-9 {
+      width: 74.99%;
+    }
+    .column-small-10 {
+      width: 83.33%;
+    }
+    .column-small-11 {
+      width: 91.66%;
+    }
+    .column-small-12 {
+      width: 100%;
+    }
+  }
+  
